@@ -1,0 +1,65 @@
+/* Page */
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: darkgray;
+  line-height: 1.3;
+}
+/* Header */
+header img{
+  width: 20%;
+  max-width: 240px;
+  min-width: 200px;
+  padding: 0.5em 0;
+}
+header h1, h2, h3{
+  font-family: 'Fira Code', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+header, footer{
+  background-color: snow;
+  text-align: center;
+}
+header, footer, section{
+  margin: 0.5em 0.5em;
+  padding: 1em 1em;
+}
+/* Main */
+h2{
+  font-size: 1.5em;
+}
+h3{
+  font-size: 1.25em;
+}
+section{
+  background-color: gainsboro;
+}
+  /* About Me section */
+  #about-me p{
+    padding-bottom: 0.75em;
+  }
+  /* My Work section */
+  #projects{
+    text-align: center;
+  }
+  .project{
+    background-color: snow;
+    width: 200px;
+    height: 200px;
+    border: 1px solid darkgray;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+  }
+  /* Courses and Certifications */
+  .courses-list{
+    padding: 1em 1em;
+    padding-bottom: 0;
+    border: 1px solid darkgray;
+    background-color: snow;
+  }
+  .courses-list dt{
+    padding: 0.5em 0em 0.5em 1em;
+  }
